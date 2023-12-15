@@ -1,0 +1,19 @@
+.color-change-element {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+}
+
+.color-picker {
+    margin-right: 10px;
+}
+
+.change-color-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.color-code-display {
+    margin-top: 10px;
+}
