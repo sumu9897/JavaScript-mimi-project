@@ -1,19 +1,47 @@
-.color-change-element {
-    width: 100px;
-    height: 100px;
-    background-color: #3498db;
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
 }
 
-.color-picker {
-    margin-right: 10px;
+.container {
+    max-width: 400px;
+    margin: 0 auto;
 }
 
-.change-color-button {
-    margin-top: 10px;
-    padding: 5px 10px;
+h1 {
+    color: #333;
+}
+
+.color-pickers {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="color"] {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.color-code-display {
-    margin-top: 10px;
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
 }
