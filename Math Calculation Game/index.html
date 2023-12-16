@@ -7,11 +7,17 @@
     <title>Math Calculation Game</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Math Calculation Game</h1>
+    <div class="container" id="nameContainer">
+        <h1>Welcome to the Math Game!</h1>
+        <p>Please input your name:</p>
+        <input type="text" id="userName" placeholder="Your Name">
+        <button onclick="startGame()">Start</button>
+    </div>
+
+    <div class="container" id="gameContainer" style="display: none;">
+        <h1 id="userNameDisplay"></h1>
         <p id="problem"></p>
         <input type="text" id="answer" placeholder="Your Answer">
-        <button onclick="checkAnswer()">Check Answer</button>
         <p id="result"></p>
         <button onclick="generateProblem()">Next Problem</button>
         <button onclick="displayFinalResult()">Final Result</button>

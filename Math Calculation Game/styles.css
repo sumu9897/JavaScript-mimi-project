@@ -37,7 +37,6 @@ input {
     margin-top: 10px;
 }
 
-/* Additional styling for result messages */
 #result {
     margin-top: 10px;
     font-weight: bold;
@@ -49,4 +48,8 @@ input {
 
 .incorrect {
     color: red;
+}
+
+.skipped {
+    color: #777;
 }
