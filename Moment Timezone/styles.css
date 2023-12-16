@@ -1,0 +1,28 @@
+/* Inside styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.clock {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+}

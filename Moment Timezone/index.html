@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://momentjs.com/downloads/moment-timezone-with-data-10-year-range.min.js"></script>
+</head>
+<body>
+
+
+    <div class="container">
+        <label for="location">Select the area:</label>
+        <select id="location" onchange="updateClock()">
+            <!-- Add your desired locations as options -->
+            <option value="America/New_York">New York</option>
+            <option value="Europe/London">London</option>
+            <!-- Add more locations as needed -->
+        </select>
+    
+        <div class="clock-container">
+            <div class="digital-clock">
+                <h2 id="local-clock"></h2>
+                <h2 id="selected-clock"></h2>
+            </div>
+            <div class="analog-clock">
+                <canvas id="canvas" width="200" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
