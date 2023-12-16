@@ -36,3 +36,17 @@ input {
     font-size: 16px;
     margin-top: 10px;
 }
+
+/* Additional styling for result messages */
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
