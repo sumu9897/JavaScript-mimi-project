@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #212121;
+    color: #fff;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+.countdown-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    font-size: 48px;
+    color: #e44d26;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply fadeIn animation to the countdown */
+.countdown {
+    animation: fadeIn 1s ease-in-out;
+}
