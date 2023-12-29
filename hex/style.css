@@ -1,0 +1,27 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+.color-container{
+    text-align: center;
+}
+
+.color-display{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+button{
+    font-size: 16px;
+    padding: 10px 20px;
+    background: green;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}

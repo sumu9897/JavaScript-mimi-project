@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quote-container{
+    text-align: center;
+}
+
+.quoteDisplay{
+    font-size: 60px;
+}

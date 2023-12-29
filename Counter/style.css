@@ -1,0 +1,43 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.counter-container{
+    text-align: center;
+}
+
+#counter{
+    font-size: 50px;
+}
+
+.button-container{
+    margin-top: 20px;
+}
+
+#increment{
+    background: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+#decrement{
+    background: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    color: #fff;
+}
