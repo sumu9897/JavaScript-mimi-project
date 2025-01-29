@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>To-Do List App</h1>
+    </header>
+    <main>
+        <section id="task-form">
+            <h2>Add New Task</h2>
+            <form id="new-task-form">
+                <input type="text" id="task-name" placeholder="Task Name" required>
+                <select id="task-category">
+                    <option value="1-Day to 7-Day">1-Day to 7-Day</option>
+                    <option value="1-6 Month">1-6 Month</option>
+                </select>
+                <input type="date" id="task-due-date" required>
+                <textarea id="task-notes" placeholder="Notes (optional)"></textarea>
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+
+        <section id="tasks">
+            <div class="task-container">
+                <div id="short-term-tasks" class="task-category">
+                    <h2>1-Day to 7-Day Tasks</h2>
+                    <div class="task-list"></div>
+                </div>
+                <div id="long-term-tasks" class="task-category">
+                    <h2>1-6 Month Goals</h2>
+                    <div class="task-list"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
