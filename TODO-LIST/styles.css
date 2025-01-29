@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -39,23 +37,28 @@ form {
     gap: 1rem;
 }
 
-form input, form select, form textarea, form button {
+form input, form select, form textarea {
     padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 1rem;
 }
 
-form button {
-    background-color: #2E7D64;
+.btn-primary {
+    background: linear-gradient(135deg, #2E7D64, #0041b3);
     color: white;
     border: none;
     cursor: pointer;
-    transition: background 0.3s;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-weight: bold;
 }
 
-form button:hover {
-    background-color: #0041b3;
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0041b3, #2E7D64);
+    transform: scale(1.05);
 }
 
 .task-container {
@@ -111,15 +114,19 @@ form button:hover {
     color: #2E7D64;
     cursor: pointer;
     font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s;
 }
 
 .task button:hover {
-    color: #2E7D64;
+    color: #0041b3;
+    transform: scale(1.1);
 }
 
 @media (min-width: 768px) {
     .task-container {
         flex-direction: row;
+        width: 100%;
         justify-content: space-between;
     }
     .task-category {

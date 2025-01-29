@@ -22,20 +22,18 @@
                 </select>
                 <input type="date" id="task-due-date" required>
                 <textarea id="task-notes" placeholder="Notes (optional)"></textarea>
-                <button type="submit">Add Task</button>
+                <button type="submit" class="btn-primary">Add Task</button>
             </form>
         </section>
 
-        <section id="tasks">
-            <div class="task-container">
-                <div id="short-term-tasks" class="task-category">
-                    <h2>1-Day to 7-Day Tasks</h2>
-                    <div class="task-list"></div>
-                </div>
-                <div id="long-term-tasks" class="task-category">
-                    <h2>1-6 Month Goals</h2>
-                    <div class="task-list"></div>
-                </div>
+        <section id="tasks" class="task-container">
+            <div id="short-term-tasks" class="task-category">
+                <h2>1-Day to 7-Day Tasks</h2>
+                <div class="task-list"></div>
+            </div>
+            <div id="long-term-tasks" class="task-category">
+                <h2>1-6 Month Goals</h2>
+                <div class="task-list"></div>
             </div>
         </section>
     </main>
